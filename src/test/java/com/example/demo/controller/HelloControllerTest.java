@@ -22,7 +22,7 @@ class HelloControllerTest {
         mockMvc.perform(get("/api/hello"))
                 .andExpect(status().isOk())
                 .andExpect(content().string(
-                        "Hello, World! This build was verified by Jenkins."));
+                        "Hello, World! This build was  by Jenkins."));
     }
 
     @Test
